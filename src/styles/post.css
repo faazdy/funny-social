@@ -1,0 +1,36 @@
+.post{
+    max-width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.post-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    img{max-width: 60px; min-width: 50px; border-radius: 50%;}
+}
+.post-image{
+    img{
+        width: 100%;
+        max-height: 900px;
+    }
+}
+.post-info{
+    padding: .9em 1em;
+
+    button{
+        padding: .5em 1em;
+        border: 0;
+        border-radius: 5px;
+        transition: .3s ease;
+    }
+    .islike{
+        background-color: rgba(255, 0, 0, 0.158);
+    }
+
+    p{
+        margin: 10px 0;
+    }
+}

@@ -9,11 +9,18 @@ function App() {
     <main className='main-body-content'>
       <header>
         <h1>Funny social</h1>
+        <div className="search">
+          <form action="">
+            <input type="text" name="search" id="search" placeholder='Search users'/>
+            <button>
+              Search
+            </button>
+          </form>
+        </div>
         <div className="options">
           <ul>
-            <li>Ja</li>
-            <li>JA</li>
-            <li>ja</li>
+            <li>My Account</li>
+            <li>Log out</li>
           </ul>
         </div>
       </header>
